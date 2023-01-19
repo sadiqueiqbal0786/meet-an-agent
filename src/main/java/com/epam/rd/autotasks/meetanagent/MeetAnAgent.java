@@ -9,10 +9,10 @@ public class MeetAnAgent {
         Scanner sc = new Scanner(System.in);
         int pass = sc.nextInt();
         if(pass == PASSWORD){
-            System.out.print("Hello, Agent");
+            System.out.println("Hello, Agent");
         }
         else{
-            System.out.print("Access denied");
+            System.out.println("Access denied");
         }
 
     }
